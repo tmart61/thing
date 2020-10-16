@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T15:34:09.889Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="9sne3B0lfNs3s9gFFnff" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-16T15:36:51.341Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Rz_EB-WaEWGi4UQxUufy" version="13.8.0" type="github">
   <diagram id="u5egj9Q1XMa9EqDsLZzm" name="Page-1">
     <mxGraphModel dx="1950" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,9 +37,6 @@
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-33" value="public class drumSet extends musicalInstrument" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-20" y="490" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-34" value="String = Batter Drum Head Type&lt;br&gt;String = Resonant Drum Head Type&lt;br&gt;int = # of Lugs&amp;nbsp;&lt;br&gt;int = Druim Diameter&lt;br&gt;Boolean:= snares?" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="520" y="-10" width="210" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-35" value="Diameter - 14&quot;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="520" width="40" height="20" as="geometry" />
         </mxCell>
@@ -49,13 +46,13 @@
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-1" value="musicalInstrument" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="320" y="-10" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-2" value="-isAcoustic; boolean&#xa;-isAmplified; boolean&#xa;-isPitched; boolean&#xa;-brand&#xa;-model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
+        <mxCell id="iNh4lFPZa8ypUP3hIFsf-2" value="-brand&#xa;-model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
           <mxGeometry y="26" width="160" height="84" as="geometry" />
         </mxCell>
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
           <mxGeometry y="110" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-4" value="+isAcoustic(); boolean&#xa;+isAmplified(); boolean&#xa;+isPItched(); boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
+        <mxCell id="iNh4lFPZa8ypUP3hIFsf-4" value="+getBrand(); String&#xa;+getModel(): String&#xa;+isAcoustic(); boolean&#xa;+isAmplified(); boolean&#xa;+isPItched(); boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
           <mxGeometry y="118" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-17" value="electricPiano" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
