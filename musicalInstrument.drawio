@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-17T15:27:10.029Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="CfoWIun0Txz3I3SwEoqP" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-17T15:28:43.645Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="qyqTn9WJR3_jKNWqcdQo" version="13.8.0" type="github">
   <diagram id="u5egj9Q1XMa9EqDsLZzm" name="Page-1">
     <mxGraphModel dx="1950" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,12 +30,6 @@
         </mxCell>
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-33" value="public class drumSet extends musicalInstrument" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-30" y="450" width="280" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-35" value="Diameter - 14&quot;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="520" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-37" value="Batter Drum Head Type = Coated Ambassador&lt;br&gt;Resonant Drum Head Type = Clear Ambassador&lt;br&gt;int = # of Lugs (8)&lt;br&gt;int = Druim Diameter 14&quot;&lt;br&gt;Boolean:= snares? true" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="15" y="550" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-17" value="electricPiano" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="590" y="310" width="160" height="100" as="geometry" />
