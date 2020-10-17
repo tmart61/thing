@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-17T15:22:18.383Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8RbAuZ7GdEfeam-BgJsU" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-17T15:22:58.776Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="1za1XKsMuwpvapwJ74Jc" version="13.8.0" type="github">
   <diagram id="u5egj9Q1XMa9EqDsLZzm" name="Page-1">
     <mxGraphModel dx="1950" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,18 +37,6 @@
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-37" value="Batter Drum Head Type = Coated Ambassador&lt;br&gt;Resonant Drum Head Type = Clear Ambassador&lt;br&gt;int = # of Lugs (8)&lt;br&gt;int = Druim Diameter 14&quot;&lt;br&gt;Boolean:= snares? true" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="15" y="550" width="210" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-1" value="musicalInstrument" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-10" width="160" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-2" value="-brand&#xa;-model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
-          <mxGeometry y="26" width="160" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
-          <mxGeometry y="70" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="iNh4lFPZa8ypUP3hIFsf-4" value="+getBrand(); String&#xa;+getModel(): String&#xa;+isAmplified(); boolean&#xa;+isPItched(); boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
-          <mxGeometry y="78" width="160" height="82" as="geometry" />
-        </mxCell>
         <mxCell id="iNh4lFPZa8ypUP3hIFsf-17" value="electricPiano" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="590" y="310" width="160" height="100" as="geometry" />
         </mxCell>
@@ -78,6 +66,18 @@
             <mxPoint x="140" y="320" as="sourcePoint" />
             <mxPoint x="300" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iNh4lFPZa8ypUP3hIFsf-1" value="musicalInstrument" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-20" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iNh4lFPZa8ypUP3hIFsf-2" value="-brand&#xa;-model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="iNh4lFPZa8ypUP3hIFsf-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iNh4lFPZa8ypUP3hIFsf-4" value="+getBrand(); String&#xa;+getModel(): String&#xa;+isAmplified(); boolean&#xa;+isPItched(); boolean&#xa;+hasMIDI(); boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iNh4lFPZa8ypUP3hIFsf-1" vertex="1">
+          <mxGeometry y="78" width="160" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
