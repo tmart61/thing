@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T02:10:48.464Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="uq4xbw8zPyHI1iMO0O8p" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T02:14:41.580Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="-EKkpwQiKk1bEwDrCLtG" version="13.8.3" type="github">
   <diagram id="u5egj9Q1XMa9EqDsLZzm" name="Page-1">
     <mxGraphModel dx="1950" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,14 +76,14 @@
         <mxCell id="9qWsobVjSM98d00uHxSe-1" value="«interface»&lt;br&gt;&lt;b&gt;SellableProduct&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="-200" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9qWsobVjSM98d00uHxSe-2" value="«interface»&lt;br&gt;&lt;b&gt;ProducesAudio&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="9qWsobVjSM98d00uHxSe-2" value="«interface»&lt;br&gt;&lt;b&gt;AudioDevice&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="-200" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9qWsobVjSM98d00uHxSe-3" value="+ item: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="85" y="-140" width="105" height="26" as="geometry" />
+        <mxCell id="9qWsobVjSM98d00uHxSe-3" value="+ int costOfProduct" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-140" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="9qWsobVjSM98d00uHxSe-4" value="+ item: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-150" width="110" height="26" as="geometry" />
+        <mxCell id="9qWsobVjSM98d00uHxSe-4" value="+ boolean: createsSound" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-150" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9qWsobVjSM98d00uHxSe-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=-0.055;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9qWsobVjSM98d00uHxSe-4">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -96,6 +96,9 @@
             <mxPoint x="290.00307692307666" y="-57" as="sourcePoint" />
             <mxPoint x="292.46461538461523" y="-217" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9qWsobVjSM98d00uHxSe-10" value="The added interfaces add more to the hierarchy of musicalInstrument. The SellableProduct interface adds a price onto musicalInstrument and AudioDevice adds a boolean to check for sound." style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry width="210" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
